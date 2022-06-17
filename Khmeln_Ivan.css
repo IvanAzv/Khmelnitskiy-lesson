@@ -130,10 +130,11 @@ table {
 }
 
 .header{
-    background-image: url(./image/Header_BG.png);
+    background-image: linear-gradient(#070606c5, #10101180), url(./image/Header_BG.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    
     
     
 }
@@ -147,6 +148,7 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin-bottom: 160px; */
 }
 
 .tel_number{
@@ -158,6 +160,40 @@ table {
     color: #FFFFFF;
 }
 
+.header_content{
+    margin-top: 160px;
+}
 .header_content h2{
     text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+}
+
+.header_content h2 span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    
+    /* green */
+ 
+    color: #77B82A;
+}
+
+.header_content .content_p p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #FFFFFF;
+    margin-top: 42px;
 }
