@@ -128,3 +128,36 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+.header{
+    background-image: url(./image/Header_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+
+.header_container{
+    width: 70%;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tel_number{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header_content h2{
+    text-transform: uppercase;
+}
