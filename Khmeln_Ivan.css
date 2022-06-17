@@ -196,4 +196,45 @@ table {
     /* or 156% */
     color: #FFFFFF;
     margin-top: 42px;
+    padding-left: 7%;
+    
+}
+
+.header_content .content_p{
+    position: relative;
+
+}
+
+.green_arrow {
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+.action_content{
+    margin-top: 150px;
+}
+
+
+.action_content .a1{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #333333;
+    background: #FFC50E;
+    border-radius: 2px;
+    padding: 12px 25px; 
+
+}
+
+.action_content .a2{
+
+}
+
+.fa-file-pdf{
+    color: azure;
 }
