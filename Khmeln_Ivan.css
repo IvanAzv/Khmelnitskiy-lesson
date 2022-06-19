@@ -320,12 +320,17 @@ table {
 
 .action_content .link_2 .circle{
     fill: #FFFFFF;
+    z-index: 0;
 }
 .action_content .link_2 .arrow {
     fill: #FFFFFF;
+    z-index: 1;
 }
 
+.action_content .link_2 .arrow:hover {
+    fill: #FFC50E;
 
+}
 
 .action_content .link_2 .circle:hover {
     fill: #FFC50E;
@@ -419,6 +424,10 @@ table {
     /* position: relative; */
     display: flex;
     align-items: center;
+    
+}
+.nav_content_4 p {
+   padding-left: 15px;
 }
 
 /* .header_nav_content .nav_content_4::before {
@@ -452,5 +461,47 @@ table {
 }
 
 .header_nav_content .nav_content_4 .img_4 svg:hover{
-    fill: 77B82A;
+    fill: #77B82A;
+}
+
+
+/* стилизация выпадающего бургер меню */
+
+.burger_menu {
+    background-color: #000000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.burger_menu_list li{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding: 35px 0 0 100px;
+
+
+}
+
+
+.burger_menu .burger_menu_nav{
+    padding-left: 35px;
+
+}
+
+.burger_menu .burger_menu_nav a{
+    text-decoration: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFC50E;
+        border: 1px solid #FFC50E;
+        padding: 14px 25px;
 }
