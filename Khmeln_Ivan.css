@@ -265,6 +265,10 @@ table {
     right: 48px;
 }
 
+.fa-file-pdf:hover{
+    color: #333333;
+}
+
 .action_content .link_2 a{
     text-decoration: none;
     font-family: 'Roboto';
@@ -277,10 +281,10 @@ table {
 
 .action_content .link_2{
     position: relative;
-    position: relative;
+    
     
 }
-.action_content .link_2::after{
+/* .action_content .link_2::after{
     content: '';
     background: url(./image/Arrow\ white\ content.png);
     width: 27px;
@@ -289,20 +293,59 @@ table {
     right: -35px;
     position: absolute;
 }
-/* .action_content .link_2::before {
+.action_content .link_2::before {
     content: '';
-    background: url(./image/circle_ivan.png);
     width: 520px;
     height: 432px;
     top: 5px;
     right: -35px;
     position: absolute;
-} */
+} 
 
-.action_content .link_2 img{
+.action_content .link_2 svg:hover{
+    color: #FF9900;
+}  */
+
+.action_content .link_2 .circle_1{
+    position: absolute;
+    top: -40px;
+    right: -45px;
+
+}
+
+
+.action_content .link_2 a:hover{
+    color: #FFC50E;
+}
+
+.action_content .link_2 .circle{
+    fill: #FFFFFF;
+}
+.action_content .link_2 .arrow {
+    fill: #FFFFFF;
+}
+
+
+
+.action_content .link_2 .circle:hover {
+    fill: #FFC50E;
+    
+}
+
+/* .action_content .link_2 img{
     position: absolute;
     top: -110px;
     right: -380px;
+} */
+
+.action_content .a1:hover {
+    color: #333333;
+    background-color: #FF9900;
+}
+
+.action_content .a2:hover{
+    color: #333333;
+    background-color: #FFC50E;
 }
 
 .dotted_line{
@@ -373,10 +416,12 @@ table {
 }
 
 .nav_content_4 {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
 }
 
-.header_nav_content .nav_content_4::before {
+/* .header_nav_content .nav_content_4::before {
     content: '';
     background: url(./image/header_nav_icon_4.png);
     width: 32px;
@@ -385,4 +430,27 @@ table {
     top: -8px;
     left: 0;
 
+} */
+
+/* вариант замены иконуи через бекграунд. Не сработал, так как див не имеет содержимого */
+
+/* .header_nav_content .nav_content_4 .img_4{
+    
+    background: url(./image/header_nav_icon_4.png);
+    height: 50px;
+    
+}
+
+.header_nav_content .nav_content_4 .img_4:hover {
+    background: url(./image/header_nav_icon_4_green.png);
+} */
+
+/* Вариант закраски иконки через свг */
+
+.header_nav_content .nav_content_4 .img_4 svg{
+    fill: white;
+}
+
+.header_nav_content .nav_content_4 .img_4 svg:hover{
+    fill: 77B82A;
 }
