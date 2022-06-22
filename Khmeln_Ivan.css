@@ -217,7 +217,7 @@ table {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 90%;
     
 }
 
@@ -308,11 +308,7 @@ table {
     background-repeat: no-repeat;
 }
 
-.action_content .a2 span{
-    background-image: url(./image/pdf_iconka_jeltaya.svg);
-    width: 18px;
-    height: 20px;
-}
+
 
 .dotted_line{
     width: 105%;
@@ -321,7 +317,7 @@ table {
 }
 
 .header_nav_content{
-    margin-top:75px;
+    margin-top:50px;
     display: flex;
     justify-content: space-between;
 }
@@ -336,92 +332,24 @@ table {
     padding-left: 45px;
 }
 
-.nav_content_1{
-    position: relative;
-}
 
-.header_nav_content .nav_content_1::before{
-    content: '';
-    background: url(./image/header_nav_icon_1.png);
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: -8px;
-    left: 0;
 
-}
-
-.nav_content_2 {
-    position: relative;
-}
-
-.header_nav_content .nav_content_2::before{
-    content: '';
-    background: url(./image/header_nav_icon_2.png);
-    width: 32px;
-    height: 28px;
-    position: absolute;
-    top: -8px;
-    left: 0;
-
-}
-
-.nav_content_3 {
-    position: relative;
-}
-
-.header_nav_content .nav_content_3::before {
-    content: '';
-    background: url(./image/header_nav_icon_3.png);
-    width: 32px;
-    height: 29px;
-    position: absolute;
-    top: -8px;
-    left: 0;
-
-}
-
-.nav_content_4 {
+.nav_content {
     /* position: relative; */
     display: flex;
     align-items: center;
     
 }
-.nav_content_4 p {
+.nav_content p {
    padding-left: 15px;
 }
 
-/* .header_nav_content .nav_content_4::before {
-    content: '';
-    background: url(./image/header_nav_icon_4.png);
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: -8px;
-    left: 0;
 
-} */
-
-/* вариант замены иконуи через бекграунд. Не сработал, так как див не имеет содержимого */
-
-/* .header_nav_content .nav_content_4 .img_4{
-    
-    background: url(./image/header_nav_icon_4.png);
-    height: 50px;
-    
-}
-
-.header_nav_content .nav_content_4 .img_4:hover {
-    background: url(./image/header_nav_icon_4_green.png);
-} */
-
-/* Вариант закраски иконки через свг */
-
-.header_nav_content .nav_content_4 .img_4 svg{
+.header_nav_content .nav_content  svg{
     fill: white;
 }
 
-.header_nav_content .nav_content_4 .img_4 svg:hover{
+.header_nav_content .nav_content  svg:hover{
     fill: #77B82A;
 }
 
