@@ -134,10 +134,11 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
+    
     
     
 }
@@ -349,11 +350,18 @@ table {
     background-color: #000000;
     background-size: cover;
     width: 25%;
-    height: 100%;
+    height: 67%; /*!!!!!!!!!!!!! не получается растянуть на 100% по высоте, так как Хидер вылазит за границы */
     display: flex;
     flex-direction: column;
     align-self: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 100;
 
+}
+
+.burger_menu_list{
+    padding-top: 50px;
 }
 
 .burger_menu_list li{
@@ -370,7 +378,7 @@ table {
 
 .burger_menu .burger_menu_nav{
     padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     padding-left: 100px;
 
 }
