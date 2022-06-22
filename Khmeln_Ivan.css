@@ -217,12 +217,16 @@ table {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 70%;
+    
 }
 
 .action_content .links {
-    width: 42%;
+    display: flex;
+    align-items: center;
+    width: 55%;
     position: relative;
+    
 
 }
 
@@ -257,17 +261,14 @@ table {
     
 }
 
-.fa-file-pdf{
-    color: #FFC50E;
-    font-size: larger;
-    position: absolute;
-    top: 1px;
-    right: 48px;
+.action_content .links .a2{
+    background-image: url(./image/pdf_icon.png);
+    background-repeat: no-repeat;
+    background-position: right 2% top 50%;
+
 }
 
-.fa-file-pdf:hover{
-    color: #333333;
-}
+
 
 .action_content .link_2 a{
     text-decoration: none;
@@ -279,78 +280,38 @@ table {
     color: #FFFFFF;
 }
 
-.action_content .link_2{
-    position: relative;
-    
-    
-}
-/* .action_content .link_2::after{
-    content: '';
-    background: url(./image/Arrow\ white\ content.png);
-    width: 27px;
-    height: 8px;
-    top: 5px;
-    right: -35px;
-    position: absolute;
-}
-.action_content .link_2::before {
-    content: '';
-    width: 520px;
-    height: 432px;
-    top: 5px;
-    right: -35px;
-    position: absolute;
-} 
 
-.action_content .link_2 svg:hover{
-    color: #FF9900;
-}  */
 
-.action_content .link_2 .circle_1{
-    position: absolute;
-    top: -40px;
-    right: -45px;
+.action_content .link_2 a svg{
+   fill: white;
 
 }
 
 
-.action_content .link_2 a:hover{
-    color: #FFC50E;
-}
-
-.action_content .link_2 .circle{
-    fill: #FFFFFF;
-    z-index: 0;
-}
-.action_content .link_2 .arrow {
-    fill: #FFFFFF;
-    z-index: 1;
-}
-
-.action_content .link_2 .arrow:hover {
+.action_content .link_2 a svg:hover{
     fill: #FFC50E;
-
 }
 
-.action_content .link_2 .circle:hover {
-    fill: #FFC50E;
-    
-}
 
-/* .action_content .link_2 img{
-    position: absolute;
-    top: -110px;
-    right: -380px;
-} */
+
 
 .action_content .a1:hover {
     color: #333333;
     background-color: #FF9900;
+    
 }
 
 .action_content .a2:hover{
     color: #333333;
     background-color: #FFC50E;
+    background-image: url(./image/pdf_iconca_seraya.png);
+    background-repeat: no-repeat;
+}
+
+.action_content .a2 span{
+    background-image: url(./image/pdf_iconka_jeltaya.svg);
+    width: 18px;
+    height: 20px;
 }
 
 .dotted_line{
