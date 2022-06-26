@@ -134,11 +134,12 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 100vh;
     /* height: 100%; */
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     display: flex;
     flex-direction: column;
-    position: relative;
+    
     
     
     
@@ -155,6 +156,7 @@ table {
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
+    
     /* margin-bottom: 160px; */
 }
 
@@ -171,6 +173,7 @@ table {
     color: #FFFFFF;
     cursor: pointer;
     text-decoration: none;
+    position: relative;
 }
 
 .header_content{
@@ -311,12 +314,16 @@ table {
     width: 105%;
     margin-top: 70px;
     border: 1px dashed #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .header_nav_content{
-    margin-top:50px;
+    /* margin-top: 50px;
+    padding-bottom: 50px; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
 }
 .nav_content{
     font-family: 'Roboto';
@@ -375,9 +382,10 @@ table {
     width: 26px;
     height: 26px;
     position: absolute;
-    top: 68px;
+    top: 83px;
     right: 170px;
     cursor: pointer;
+    z-index: 1;
     
 }
 
@@ -391,9 +399,9 @@ table {
 
 .menu_btn .span_korotk{
     display: block;
-        width: 50%;
-        height: 2px;
-        background-color: white;
+    width: 50%;
+    height: 2px;
+    background-color: white;
 }
 
 .asside_menu{
@@ -408,7 +416,7 @@ table {
     visibility: hidden;
     position: absolute;
     top: 0;
-    right: 0%;
+    right: -100%;
     transition-duration: .25s;
 }
 
@@ -449,14 +457,14 @@ table {
 
 .zvorotniy_zvyazok a{
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        color: #FFC50E;
-        text-decoration: none;
-        border: 1px solid #FFC50E;
-        padding: 14px 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFC50E;
+    text-decoration: none;
+    border: 1px solid #FFC50E;
+    padding: 14px 25px;
         
 }
 
@@ -464,6 +472,8 @@ table {
     transform: rotate(45deg);
     position: absolute;
     top: 10px;
+    right: -50px;
+    transition-duration: .25s;
 }
 
 #menu_toogle:checked~.menu_btn .span_2 {
@@ -475,6 +485,8 @@ table {
     transform: rotate(135deg);
     position: absolute;
     top: 10px;
+    right: -50px;
+    transition-duration: .25s;
 }
 
 #menu_toogle:checked~.menu_btn .span_4 {
@@ -489,6 +501,7 @@ table {
 
 #menu_toogle:checked ~.asside_menu {
     visibility: visible;
+    right: 0;
     
 }
 
@@ -561,7 +574,7 @@ table {
 }
 
 .content_container .block_pro_nash .text_content ul{
-    width: 50%;
+    width: 70%;
     margin-top: 30px;
     list-style-image: url(./image/ul_marker.svg);
     list-style-position: inside;
@@ -587,7 +600,7 @@ table {
 }
 
 .content_container .block_pro_nash .text_content_2 table{
-    width: 70%;
+    width: 80%;
 }
 .content_container .block_pro_nash .text_content_2 table .table_numeric{
     font-family: 'Roboto';
@@ -602,7 +615,7 @@ table {
         /* green */
     
         color: #77B82A;
-        text-align: end;
+        text-align: center;
         vertical-align: middle;
 }
 
@@ -611,7 +624,7 @@ table {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    /* line-height: 24px; */
     /* or 171% */
     color: #000000;
     vertical-align: middle;
@@ -619,7 +632,7 @@ table {
 }
 
 .content_container .block_pro_nash .text_content_3 p{
-    width: 70%;
+    width: 80%;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -630,13 +643,19 @@ color: #000000;
 }
 
 
-.text_content, .image_content{
-    width: 48%;
+.text_content{
+    width: 40%;
     height: 100%;
 }
 
+.image_content{
+    width: 60%;
+    height: 100%;
+
+}
+
 .image_content img{
-    /* width: 100%; */
+    width: 100%;
 }
 
 .image_content{
@@ -648,7 +667,7 @@ color: #000000;
 .video_block{
     width: 60%;
     margin: auto;
-    padding-top: 100px;
+    margin-top: 100px;
     position: relative;
    
 }
@@ -656,19 +675,20 @@ color: #000000;
 .video_block .img1{
     width: 100%;
     
+    
 }
 
 .video_block .img2{
     
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 212px;
+    left: 438px;
     z-index: 1;
 
 }
 
 .video_block .img3{
-    padding-top: 100px; /* Паддинг нужно прописывать отдельно, потому что абсолют?*/
+    /* padding-top: 100px; Паддинг нужно прописывать отдельно, потому что абсолют? */
     width: 100%;
     position: absolute;
     top: 0;
