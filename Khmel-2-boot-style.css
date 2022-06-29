@@ -1,0 +1,121 @@
+
+
+.container-fluid {
+    padding: 0 !important;
+    
+}
+
+.container-fluid .row .col {
+    padding: 0 !important;
+
+}
+
+/* Начало стилизации видео блока */
+
+.video_block{
+    width: 70%;
+    background-image: url(./image/video\ mask.png);
+    margin: 135px auto;
+    text-align: center;
+    position: relative;
+    
+}
+
+.video_block .video_block_img_1{
+    width: 100%;
+}
+
+
+
+.video_block .video_block_img_2{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.video_block .video_block_img_3{
+    position: absolute;
+    top: 255px;
+    left: 527px;
+    z-index: 1;
+}
+
+/* Конец стилизации видео блока */
+
+/* Начало стилизации заглавия "характеристики забудовы" */
+
+.zagolovok{
+    width: 70%;
+    margin: auto;
+}
+
+.zagolovok .h2{
+    width: 74%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.zagolovok .h2::after{
+    content: url(./image/green\ line.png);
+    width: 103px;
+    height: 2px;
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.zagolovok_1{
+    margin-bottom:70px;
+}
+.zagolovok_1 .h2{
+    width: 41%;
+}
+
+/* Конец стилизации заглавия "характеристики забудовы" */
+
+/* Начало стилизации блока "характеристики забудовы" */
+
+.harakteristiki_zabudovu_block{
+    width: 70%;
+    margin: auto;
+}
+
+.harakteristiki_zabudovu_block .container-fluid{
+    margin-top: 75px;
+}
+
+.harakteristiki_zabudovu_block .container-fluid .col-3{
+    text-align: center;
+}
+
+.harakteristiki_zabudovu_block .container-fluid .col-3 img{
+
+    position: relative;
+}
+
+.harakteristiki_zabudovu_block .container-fluid .col-3::after{
+    content: '';
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    background: #78b82ac2;
+}
+
+
+.harakteristiki_zabudovu_block .container-fluid .col-9 p{
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.harakteristiki_zabudovu_block .container-fluid .col-9 .p1{
+    color: #999999;
+}
