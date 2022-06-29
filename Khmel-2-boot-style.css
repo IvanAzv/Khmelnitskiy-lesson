@@ -111,11 +111,15 @@
     margin: 0;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     color: #333333;
 }
 
 .harakteristiki_zabudovu_block .container-fluid .col-9 .p1{
     color: #999999;
+}
+
+.harakteristiki_zabudovu_block .container-fluid .row{
+    margin-top: 20px;
 }
