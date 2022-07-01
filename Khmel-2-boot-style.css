@@ -15,6 +15,7 @@
 
 }
 
+
 /* Начало стилизации видео блока */
 
 .video_block{
@@ -88,46 +89,70 @@
 .harakteristiki_zabudovu_block{
     width: 70%;
     margin: auto;
+    margin-bottom: 70px;
 }
 
 .harakteristiki_zabudovu_block .container-fluid{
     margin-top: 75px;
 }
 
-.harakteristiki_zabudovu_block .container-fluid .col-3{
-    text-align: center;
+.harakteristiki_zabudovu_block .container-fluid .col{
+    
 }
 
-.harakteristiki_zabudovu_block .container-fluid .col-3 img{
+.harakteristiki_zabudovu_block .container-fluid .col img{
 
     position: relative;
 }
 
-.harakteristiki_zabudovu_block .container-fluid .col-3::after{
+.harakteristiki_zabudovu_block .container-fluid .content_img ::after{
     content: '';
     position: absolute;
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    right: 0;
-    top: 0;
-    background: #78b82ac2;
+    left: 25px;
+    top: -8px;
+    background: #78b82a54;
 }
 
 
-.harakteristiki_zabudovu_block .container-fluid .col-9 p{
-    margin: 0;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: #333333;
-}
 
-.harakteristiki_zabudovu_block .container-fluid .col-9 .p1{
-    color: #999999;
-}
 
 .harakteristiki_zabudovu_block .container-fluid .row{
     margin-top: 20px;
+}
+
+.harakteristiki_zabudovu_block .container-fluid .row .content_img p{
+    margin: 0;
+    margin-left: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #999999;
+    
+}
+
+.harakteristiki_zabudovu_block .container-fluid .row .content_img{
+    margin-top: 30px;
+}
+
+.harakteristiki_zabudovu_block .container-fluid .row .content_img .p1{
+    color: #333333;
+    font-weight: 500;
+}
+
+/* начало стилизации юлока с планами */
+
+.plans{
+    background-color: #000000;
+}
+.types_of_plans_block{
+    width: 70%;
+    margin: auto;
+}
+
+.plans .title_container .h2{
+    color: #FFFFFF;
 }
