@@ -5,6 +5,11 @@
     
 }
 
+.container-fluid .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .container-fluid .row .col {
     padding: 0 !important;
 
@@ -37,8 +42,10 @@
 
 .video_block .video_block_img_3{
     position: absolute;
-    top: 255px;
-    left: 527px;
+    top: 50%;
+    margin-top: -66px;
+    left: 50%;
+    margin-left: -58px;
     z-index: 1;
 }
 
@@ -46,32 +53,33 @@
 
 /* Начало стилизации заглавия "характеристики забудовы" */
 
-.zagolovok{
+.title_container{
     width: 70%;
     margin: auto;
 }
+.title{
+    margin: auto;
+}
 
-.zagolovok .h2{
-    width: 74%;
+.title .h2{
+    display: inline;
     text-transform: uppercase;
     position: relative;
 }
 
-.zagolovok .h2::after{
+.title .h2::after{
     content: url(./image/green\ line.png);
     width: 103px;
     height: 2px;
     position: absolute;
-    top: 6px;
-    right: 0;
+    top: 8px;
+    right: -72px;
 }
 
-.zagolovok_1{
+.title{
     margin-bottom:70px;
 }
-.zagolovok_1 .h2{
-    width: 41%;
-}
+
 
 /* Конец стилизации заглавия "характеристики забудовы" */
 
